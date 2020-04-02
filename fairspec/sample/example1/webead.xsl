@@ -269,16 +269,6 @@
 								<xsl:apply-templates />
 
 							</div>
-							<!-- endcontent -->
-							<div class="hidden">
-								<strong>Begin Page Contents and Section Navigation.</strong>
-							</div>
-							<a name="primary" />
-							<div class="primaryNav" align="left">
-							</div> <!-- end primaryNav -->
-
-							<br clear="all" />
-
 						</div> <!-- endcontentWrapper -->
 						<!-- END PAGE CONTENT -->
 
@@ -1637,7 +1627,7 @@
 	</xsl:template>
 
 	<xsl:template name="fs-dao-nmr">
-		<td>
+		<td width="40"></td><td>
 			<xsl:element name="a">
 				<xsl:attribute name="href">
 					<xsl:value-of select="@href" />
@@ -1651,7 +1641,7 @@
 		<xsl:if test="daodesc">
 			<xsl:call-template name="fs-daodesc-nmr" />
 		</xsl:if>
-	</xsl:template>
+		</xsl:template>
 
 	<xsl:template name="fs-daodesc-nmr">
 		<xsl:for-each select="daodesc/note">
