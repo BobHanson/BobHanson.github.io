@@ -1,0 +1,13 @@
+{"IFS.fairspec.version":"0.0.1-alpha-2021_06_27",
+"IFS.fairspec.data.license.uri":"https://creativecommons.org/licenses/by-nc/4.0",
+"IFS.fairspec.data.license.name":"cc-by-nc-4.0",
+"IFS.extractor.version":"0.0.1-alpha_2021_06_21",
+"IFS.extractor.code":"https://github.com/BobHanson/IUPAC-FAIRSpec/blob/main/src/main/java/com/integratedgraphics/ifs/Extractor.java",
+"IFS.extractor.list.type":"ignored",
+"IFS.extractor.scirpt":"_IFS_extract.json",
+"IFS.extractor.source":"https://ndownloader.figshare.com/files/22125318",
+"IFS.extractor.creation.date":"29 Jun 2021 15:25:54 GMT",
+"IFS.extractor.count":0,
+"IFS.extractor.list":
+[
+]}
